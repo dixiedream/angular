@@ -8,4 +8,4 @@ services:
     volumes:
       - .:/app
     ports:
-      - 8080:4200
+      - 4200:4200
