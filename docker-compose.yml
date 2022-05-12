@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  server:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - .:/app
+    # ports:
+      # - 8080:8080

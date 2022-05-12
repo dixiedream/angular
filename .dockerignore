@@ -1,0 +1,11 @@
+.vscode
+**/node_modules
+**/dist
+*.log
+.editorconfig
+.git
+.gitignore
+docker-compose*.yml
+Jenkinsfile
+LICENSE
+README.md
