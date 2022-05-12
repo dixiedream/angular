@@ -17,8 +17,8 @@ RUN npm ci && \
     npm cache clean --force
 
 FROM base as dev
-EXPOSE 8080
-# CMD ["vite", "--host" ]
+EXPOSE 4200
+CMD ["ng", "serve", "--host", "0.0.0.0" ]
 
 FROM base as build
 COPY . .
